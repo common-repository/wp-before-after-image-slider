@@ -1,0 +1,133 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/admin/styles/components.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.coca-upload-media__component {
+  display: block;
+  width: 100%;
+}
+.coca-upload-media__component .coca-upload-media {
+  position: relative;
+  display: block;
+  width: 150px !important;
+  height: 150px !important;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px dashed #000;
+  border-radius: 4px;
+}
+.coca-upload-media__component .coca-upload-media:has(svg.placeholder-broken-image) {
+  border: 1px dashed #f00;
+}
+.coca-upload-media__component .coca-upload-media:has(svg.placeholder-broken-image) .footer {
+  background-color: #f00;
+}
+.coca-upload-media__component .coca-upload-media .remove-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+  height: auto;
+  padding: 2px;
+  line-height: 0;
+  color: #fff;
+  background-color: #f00;
+  border-radius: 4px;
+  transition: 300ms ease-in-out;
+}
+.coca-upload-media__component .coca-upload-media .remove-icon svg {
+  width: 16px;
+  height: auto;
+  fill: currentcolor;
+}
+.coca-upload-media__component .coca-upload-media img {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  line-height: 0;
+}
+.coca-upload-media__component .coca-upload-media svg.placeholder-broken-image {
+  fill: #f00;
+}
+.coca-upload-media__component .coca-upload-media svg.placeholder-upload-image {
+  fill: #000;
+}
+.coca-upload-media__component .coca-upload-media .overlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.coca-upload-media__component .coca-upload-media .overlay .footer {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  appearance: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  border-radius: unset;
+  outline: 0;
+  box-shadow: none;
+  transition: 300ms ease-in-out;
+}
+.coca-upload-media__component .coca-upload-media .overlay .footer:hover, .coca-upload-media__component .coca-upload-media .overlay .footer:active {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.coca-upload-media__component .components-notice.is-error {
+  padding: 0 0 0 10px;
+  margin-top: 1rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.coca-disable-feature {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: -20px;
+  margin-left: -20px;
+  overflow: hidden;
+}
+.coca-disable-feature .components-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.coca-disable-feature .buy-pro-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.57);
+  border: 0;
+  transition: 300ms ease-in-out;
+  transform: translateY(100%);
+}
+.coca-disable-feature:hover .buy-pro-overlay {
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=components.css.map*/

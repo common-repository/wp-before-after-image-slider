@@ -1,0 +1,190 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shortcodes/bais-triples/styles.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.coca-bais-shortcode {
+  display: block;
+  position: relative;
+}
+.coca-bais-shortcode .left-arrow,
+.coca-bais-shortcode .right-arrow {
+  transition: 300ms ease-in-out;
+}
+.coca-bais-shortcode .template-style01 .scroller {
+  --coca-image-compare-handle-radius: 0;
+  margin-left: calc(-1 * var(--coca-image-compare-handle-stroke) + 3px);
+  transform: rotate(45deg);
+}
+.coca-bais-shortcode .template-style01 .scroller::before, .coca-bais-shortcode .template-style01 .scroller::after {
+  display: none;
+}
+.coca-bais-shortcode .template-style01 .scroller .scroller__thumb {
+  transform: rotate(138deg);
+}
+.coca-bais-shortcode .template-style02 .after-label,
+.coca-bais-shortcode .template-style02 .before-label,
+.coca-bais-shortcode .template-style03 .after-label,
+.coca-bais-shortcode .template-style03 .before-label {
+  top: 80%;
+  padding: 16px 30px;
+  margin-top: 0;
+  line-height: 1.5;
+}
+.coca-bais-shortcode .template-style02 .before-label,
+.coca-bais-shortcode .template-style03 .before-label,
+.coca-bais-shortcode .template-style04 .before-label {
+  left: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.coca-bais-shortcode .template-style02 .after-label,
+.coca-bais-shortcode .template-style03 .after-label,
+.coca-bais-shortcode .template-style04 .after-label {
+  right: 0;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.coca-bais-shortcode .template-style02 .scroller .scroller__thumb .left-arrow,
+.coca-bais-shortcode .template-style05 .scroller .scroller__thumb .left-arrow {
+  border-right-color: #737373;
+}
+.coca-bais-shortcode .template-style02 .scroller .scroller__thumb .right-arrow,
+.coca-bais-shortcode .template-style05 .scroller .scroller__thumb .right-arrow {
+  border-left-color: #737373;
+}
+.coca-bais-shortcode .template-style02 .scroller {
+  --coca-image-compare-handle-circle-width: 30px;
+  --coca-image-compare-handle-circle-height: 126px;
+  --coca-image-compare-handle-stroke: 1px;
+  margin-left: calc(-1 * var(--coca-image-compare-handle-stroke) + 9px);
+  background: #fff;
+}
+.coca-bais-shortcode .template-style02 .scroller .scroller__thumb .left-arrow {
+  left: 0;
+}
+.coca-bais-shortcode .template-style02 .scroller .scroller__thumb .right-arrow {
+  right: 0;
+}
+.coca-bais-shortcode .template-style03 .scroller {
+  --coca-image-compare-handle-circle-width: 85px;
+  --coca-image-compare-handle-circle-height: 85px;
+  margin-left: calc(-1 * (var(--coca-image-compare-handle-stroke) + 18px));
+}
+.coca-bais-shortcode .template-style03 .scroller .scroller__thumb .left-arrow {
+  margin-left: calc(var(--coca-image-compare-handle-circle-width) / 2 - 19px);
+}
+.coca-bais-shortcode .template-style03 .scroller .scroller__thumb .right-arrow {
+  margin-right: calc(var(--coca-image-compare-handle-circle-width) / 2 - 19px);
+}
+.coca-bais-shortcode .template-style04 .scroller {
+  border: none;
+  box-shadow: none;
+}
+.coca-bais-shortcode .template-style04 .scroller::before {
+  top: 0;
+  margin-bottom: 0;
+  margin-left: 0 !important;
+}
+.coca-bais-shortcode .template-style04 .scroller::after {
+  bottom: 0;
+  margin-top: 0;
+  margin-left: 0 !important;
+}
+.coca-bais-shortcode .template-style04 .after-label,
+.coca-bais-shortcode .template-style04 .before-label {
+  top: 10%;
+  padding: 16px 30px;
+  margin-top: 0;
+  line-height: 1.5;
+}
+.coca-bais-shortcode .template-style05 .scroller {
+  --coca-image-compare-handle-stroke: 10px;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border-color: rgba(255, 255, 255, 0.53);
+  border-style: solid;
+}
+.coca-bais-shortcode .template-style06 .scroller {
+  --coca-image-compare-handle-circle-height: 70px;
+  --coca-image-compare-handle-circle-width: 15px;
+  --coca-image-compare-handle-triangle-position: 15px;
+  margin-left: calc(-1 * var(--coca-image-compare-handle-stroke) + 16px);
+}
+.coca-bais-shortcode .template-style06 .scroller .left-arrow {
+  margin-left: calc(-1 * (var(--coca-image-compare-handle-stroke) + 25px));
+}
+.coca-bais-shortcode .template-style06 .scroller .right-arrow {
+  margin-right: calc(-1 * (var(--coca-image-compare-handle-stroke) + 25px));
+}
+.coca-bais-shortcode .popup-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 999;
+  padding: 5px;
+  line-height: 0;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.coca-bais-shortcode .popup-button.bottom-left {
+  right: auto;
+  left: 10px;
+}
+.coca-bais-shortcode .popup-button.top-left {
+  top: 10px;
+  right: auto;
+  bottom: auto;
+  left: 10px;
+}
+.coca-bais-shortcode .popup-button.top-right {
+  top: 10px;
+  right: 10px;
+  bottom: auto;
+}
+.coca-bais-shortcode .popup-button:hover, .coca-bais-shortcode .popup-button:focus, .coca-bais-shortcode .popup-button:active {
+  background: rgb(234, 84, 0);
+}
+.coca-bais-shortcode .popup-button:hover svg, .coca-bais-shortcode .popup-button:focus svg, .coca-bais-shortcode .popup-button:active svg {
+  color: #fff;
+}
+.coca-bais-shortcode .popup-button, .coca-bais-shortcode .popup-button svg {
+  transition: 300ms ease-in-out;
+}
+.coca-bais-shortcode .popup-button svg {
+  pointer-events: none;
+}
+.coca-bais-shortcode:has(.coca-bais-triple-container) {
+  overflow: hidden;
+}
+.coca-bais-shortcode .coca-bais-triple-container {
+  display: block;
+}
+.coca-bais-shortcode .coca-bais-triple-container:not(.coca-image-compare-triple-container) {
+  display: none;
+}
+.coca-bais-shortcode .coca-bais-triple-container img {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.coca-bais-shortcode .components-notice {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  margin: 5px 0 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  background-color: #fff;
+  border-left: 4px solid var(--wp-components-color-accent, var(--wp-admin-theme-color, #3858e9));
+}
+.coca-bais-shortcode .components-notice.is-warning {
+  background-color: #fef8ee;
+  border-left-color: #f0b849;
+}
+.coca-bais-shortcode .components-notice .components-notice__content {
+  flex-grow: 1;
+  margin: 4px 25px 4px 0;
+}
+
+/*# sourceMappingURL=bais-triple.css.map*/

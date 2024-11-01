@@ -1,0 +1,244 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/common/styles/image-compare-triple.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+/* You can remove this page div in your website */
+.coca-image-compare-triple-wrapper {
+  --coca-image-compare-handle-color: #fff;
+  --coca-image-compare-handle-stroke: 3px;
+  --coca-image-compare-handle-circle-width: 40px;
+  --coca-image-compare-handle-circle-height: 40px;
+  --coca-image-compare-handle-box-shadow: 3.5px 0 7px rgba(100, 100, 100, 0.2);
+  --coca-image-compare-handle-triangle-color: var(--coca-image-compare-handle-color);
+  --coca-image-compare-handle-triangle-size: 6px;
+  --coca-image-compare-handle-triangle-position: 5px;
+  --coca-image-compare-handle-radius: 1000px;
+  --coca-image-compare-overlay-bg: rgba(0, 0, 0, 0.5);
+  --coca-image-compare-overlay-label-color: #fff;
+  --coca-image-compare-overlay-label-bg: rgba(255, 255, 255, .2);
+  --coca-image-compare-overlay-label-height: 38px;
+  --coca-image-compare-overlay-label-width: 90px;
+  --coca-image-compare-overlay-label-padding: 20px;
+  --coca-image-compare-overlay-label-font-size: 13px;
+  --coca-image-compare-overlay-label-letter-spacing: 0.1em;
+  --coca-image-compare-label-radius: 2px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* Our coca-image-compare-container */
+  /* Our image information */
+}
+.coca-image-compare-triple-wrapper * {
+  margin: 0;
+}
+.coca-image-compare-triple-wrapper *:not(.label) {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.coca-image-compare-triple-wrapper .coca-image-compare-triple-container {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  overflow: hidden;
+  transform: translate3d(0%, 0%, 0);
+  animation: fadeIn 800ms;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.coca-image-compare-triple-wrapper .coca-image-compare-triple-container:hover .label {
+  opacity: 1;
+}
+.coca-image-compare-triple-wrapper .coca-image-compare-triple-container:hover .overlay {
+  background-color: var(--coca-image-compare-overlay-bg);
+}
+.coca-image-compare-triple-wrapper .coca-image-compare-triple-container:hover:has(.scrolling) .overlay {
+  background-color: transparent;
+}
+.coca-image-compare-triple-wrapper .bottom,
+.coca-image-compare-triple-wrapper .middle,
+.coca-image-compare-triple-wrapper .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.coca-image-compare-triple-wrapper .bottom img,
+.coca-image-compare-triple-wrapper .middle img,
+.coca-image-compare-triple-wrapper .top img {
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+}
+.coca-image-compare-triple-wrapper .bottom .label,
+.coca-image-compare-triple-wrapper .middle .label,
+.coca-image-compare-triple-wrapper .top .label {
+  position: absolute;
+  width: var(--coca-image-compare-overlay-label-width);
+  min-width: max-content;
+  padding: 0 var(--coca-image-compare-overlay-label-padding);
+  font-size: var(--coca-image-compare-overlay-label-font-size);
+  line-height: var(--coca-image-compare-overlay-label-height);
+  color: var(--coca-image-compare-handle-color);
+  text-align: center;
+  background: var(--coca-image-compare-overlay-label-bg);
+  border-radius: var(--coca-image-compare-label-radius);
+  opacity: 0;
+  transition: 300ms ease-in-out;
+}
+.coca-image-compare-triple-wrapper .bottom .label {
+  right: 10px;
+  bottom: 10px;
+}
+.coca-image-compare-triple-wrapper .middle .label {
+  bottom: 10px;
+  left: 75%;
+}
+.coca-image-compare-triple-wrapper .top {
+  width: 125px;
+}
+.coca-image-compare-triple-wrapper .top .label {
+  bottom: 10px;
+  left: 10px;
+}
+.coca-image-compare-triple-wrapper.handle-bottom {
+  padding-bottom: 40px;
+}
+.coca-image-compare-triple-wrapper.handle-bottom .coca-image-compare-triple-container {
+  overflow: visible;
+}
+.coca-image-compare-triple-wrapper .triple-handle-wrapper {
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  height: 10px;
+  margin-right: 0;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller {
+  width: unset;
+  height: unset;
+  background: #fff;
+  box-shadow: none;
+}
+.coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller.scroller-top, .coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller.scroller-middle {
+  --coca-image-compare-handle-circle-height: 19px;
+  top: 0;
+  padding: 0;
+  margin-top: 0;
+  border: 0;
+  transform: none;
+}
+.coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller.scroller-top:after, .coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller.scroller-middle:after {
+  margin-left: 0;
+}
+.coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller.scroller-top:before, .coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller.scroller-middle:before {
+  display: none;
+}
+.coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller .scroller__thumb {
+  height: 10px;
+  border: none !important;
+  border-radius: 5px;
+}
+.coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller .scroller__thumb .left-arrow,
+.coca-image-compare-triple-wrapper .triple-handle-wrapper .scroller .scroller__thumb .right-arrow {
+  display: none;
+}
+.coca-image-compare-triple-wrapper .scroller {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  z-index: 10;
+  margin-left: calc(-1 * var(--coca-image-compare-handle-stroke) + 3px);
+  pointer-events: auto;
+  cursor: pointer;
+  border: var(--coca-image-compare-handle-stroke) solid var(--coca-image-compare-handle-color);
+  border-radius: var(--coca-image-compare-handle-radius);
+  box-shadow: var(--coca-image-compare-handle-box-shadow);
+  opacity: 0.9;
+  transition: 300ms ease-in-out;
+  transition-property: opacity, background-color, border-color !important;
+  transform: translateY(-50%);
+}
+.coca-image-compare-triple-wrapper .scroller:hover {
+  opacity: 1;
+}
+.coca-image-compare-triple-wrapper .scroller:before, .coca-image-compare-triple-wrapper .scroller:after {
+  position: absolute;
+  left: 50%;
+  z-index: 30;
+  display: block;
+  width: 3px;
+  height: 9999px;
+  margin-left: -1px;
+  content: " ";
+  box-shadow: 3.5px 0 7px rgba(100, 100, 100, 0.2);
+  transition: 100ms ease-in-out;
+}
+.coca-image-compare-triple-wrapper .scroller:before {
+  top: calc(var(--coca-image-compare-handle-circle-height) + var(--coca-image-compare-handle-stroke));
+}
+.coca-image-compare-triple-wrapper .scroller:after {
+  bottom: calc(var(--coca-image-compare-handle-circle-height) + var(--coca-image-compare-handle-stroke));
+}
+.coca-image-compare-triple-wrapper .scroller.scrolling {
+  pointer-events: none;
+  opacity: 1;
+}
+.coca-image-compare-triple-wrapper .scroller.scroller-middle {
+  top: calc(50% + var(--coca-image-compare-handle-circle-height) / 2 + 25px);
+}
+.coca-image-compare-triple-wrapper .scroller.scroller-middle:before, .coca-image-compare-triple-wrapper .scroller.scroller-middle:after {
+  background: var(--coca-image-compare-handle-color);
+}
+.coca-image-compare-triple-wrapper .scroller.scroller-top {
+  top: calc(50% - (var(--coca-image-compare-handle-circle-height) / 2 + 25px));
+}
+.coca-image-compare-triple-wrapper .scroller.scroller-top:before, .coca-image-compare-triple-wrapper .scroller.scroller-top:after {
+  background: var(--coca-image-compare-handle-color);
+}
+.coca-image-compare-triple-wrapper .scroller .scroller__thumb {
+  position: relative;
+  width: var(--coca-image-compare-handle-circle-width);
+  height: var(--coca-image-compare-handle-circle-height);
+}
+.coca-image-compare-triple-wrapper .scroller .scroller__thumb .left-arrow,
+.coca-image-compare-triple-wrapper .scroller .scroller__thumb .right-arrow {
+  position: absolute;
+  top: calc(50% - 6px);
+  border: 6px inset transparent;
+}
+.coca-image-compare-triple-wrapper .scroller .scroller__thumb .left-arrow {
+  left: 3px;
+  border-right-color: #fff;
+}
+.coca-image-compare-triple-wrapper .scroller .scroller__thumb .right-arrow {
+  right: 3px;
+  border-left: 6px solid #fff;
+}
+.coca-image-compare-triple-wrapper .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  transition: 300ms ease-in-out;
+}
+
+/*# sourceMappingURL=image-compare-triple.css.map*/

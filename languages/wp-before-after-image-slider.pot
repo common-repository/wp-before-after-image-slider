@@ -1,0 +1,1021 @@
+# Copyright (C) 2024 Code Canel
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Before After Image Slider 1.0.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/before-after-image-slider\n"
+"POT-Creation-Date: 2024-06-12 05:29:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/admin/MetaBoxes.php:50 includes/admin/PostType.php:164
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/MetaBoxes.php:86
+msgid "Shortcode Copied!"
+msgstr ""
+
+#: includes/admin/PostType.php:89
+msgid "Before After Sliders"
+msgstr ""
+
+#: includes/admin/PostType.php:90 includes/admin/PostType.php:118
+msgid "Before After Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:91
+msgid "Slider Archives"
+msgstr ""
+
+#: includes/admin/PostType.php:92
+msgid "Slider Attributes"
+msgstr ""
+
+#: includes/admin/PostType.php:93
+msgid "Parent Slider:"
+msgstr ""
+
+#: includes/admin/PostType.php:94
+msgid "All Sliders"
+msgstr ""
+
+#: includes/admin/PostType.php:95
+msgid "Add New Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:96
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/PostType.php:97
+msgid "New Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:98
+msgid "Edit Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:99
+msgid "Update Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:100
+msgid "View Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:101
+msgid "View Sliders"
+msgstr ""
+
+#: includes/admin/PostType.php:102
+msgid "Search Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:103
+msgid "Not found"
+msgstr ""
+
+#: includes/admin/PostType.php:104
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/admin/PostType.php:105
+msgid "Featured Image"
+msgstr ""
+
+#: includes/admin/PostType.php:106
+msgid "Set featured image"
+msgstr ""
+
+#: includes/admin/PostType.php:107
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/admin/PostType.php:108
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/admin/PostType.php:109
+msgid "Insert into Before After Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:110
+msgid "Uploaded to this Before After Slider"
+msgstr ""
+
+#: includes/admin/PostType.php:111
+msgid "Sliders list"
+msgstr ""
+
+#: includes/admin/PostType.php:112
+msgid "Sliders list navigation"
+msgstr ""
+
+#: includes/admin/PostType.php:113
+msgid "Filter Sliders list"
+msgstr ""
+
+#: includes/admin/PostType.php:119
+msgid "A Before After Slider post type"
+msgstr ""
+
+#: includes/admin/PostType.php:165
+#: includes/features/Widgets/BeforeAfterImageSlider.php:113
+#: includes/widgets/BeforeAfterImageSlider.php:162
+msgid "Before Image"
+msgstr ""
+
+#: includes/admin/PostType.php:166
+#: includes/features/Widgets/BeforeAfterImageSlider.php:138
+#: includes/widgets/BeforeAfterImageSlider.php:173
+msgid "After Image"
+msgstr ""
+
+#: includes/admin/PostType.php:208 includes/admin/PostType.php:224
+#: includes/features/Admin/PostType.php:87
+msgid "No Image"
+msgstr ""
+
+#: includes/admin/RestApiRoutes.php:71
+msgid "The post meta added."
+msgstr ""
+
+#: includes/admin/RestApiRoutes.php:79
+msgid "The post meta updated."
+msgstr ""
+
+#: includes/admin/RestApiRoutes.php:87
+msgid "Already updated!"
+msgstr ""
+
+#: includes/admin/ShortCode.php:176
+#: includes/widgets/BeforeAfterImageSlider.php:692
+msgid "You need to add both before and after image."
+msgstr ""
+
+#: includes/features/Admin/License.php:79
+#. translators: 1: The plugin name 2: Plugin status.
+msgid "WP Before After Image Slider Pro"
+msgstr ""
+
+#: includes/features/Admin/License.php:80
+msgid "plugin is active"
+msgstr ""
+
+#: includes/features/Admin/License.php:83
+msgid " but isn't license activated to do anything yet."
+msgstr ""
+
+#: includes/features/Admin/License.php:88
+#. translators: %s: URL to License page.
+msgid " Visit the <a href=\"%s\">license page</a> to activate the license."
+msgstr ""
+
+#: includes/features/Admin/License.php:111
+msgid "Active License!"
+msgstr ""
+
+#: includes/features/Admin/License.php:128
+msgid "Sorry, you dont have enough permissions to manage those settings."
+msgstr ""
+
+#: includes/features/Admin/License.php:129
+msgid "License removed."
+msgstr ""
+
+#: includes/features/Admin/License.php:130
+msgid "Invalid action."
+msgstr ""
+
+#: includes/features/Admin/License.php:131
+msgid "Please provide valid product key."
+msgstr ""
+
+#: includes/features/Admin/License.php:132
+msgid "Congrats! Your key is valid and your product will receive future updates"
+msgstr ""
+
+#: includes/features/Admin/License.php:133
+msgid "The license key is now deactivated."
+msgstr ""
+
+#: includes/features/Admin/License.php:134
+msgid "License :status. Activation permanent."
+msgstr ""
+
+#: includes/features/Admin/License.php:135
+msgid "License :status. Expires on :expires_at (:days_remaining days remaining)."
+msgstr ""
+
+#: includes/features/Admin/License.php:136
+msgid "License :status. Deactivated on :deactivated_at (Valid permanently)"
+msgstr ""
+
+#: includes/features/Admin/License.php:137
+msgid ""
+"License :status. Deactivated on :deactivated_at (:days_remaining days "
+"remaining)"
+msgstr ""
+
+#: includes/features/Admin/License.php:140
+msgid "Your license is :status. To get regular updates and support, please"
+msgstr ""
+
+#: includes/features/Admin/License.php:141
+#: includes/features/Admin/License.php:146
+msgid "purchase the product"
+msgstr ""
+
+#: includes/features/Admin/License.php:145
+msgid "To get regular updates and support, please"
+msgstr ""
+
+#: includes/features/Admin/License.php:148
+msgid "valid"
+msgstr ""
+
+#: includes/features/Admin/License.php:149
+msgid "expired"
+msgstr ""
+
+#: includes/features/Admin/License.php:150
+msgid "expired or invalid"
+msgstr ""
+
+#: includes/features/Admin/License.php:151
+msgid "Deactivate"
+msgstr ""
+
+#: includes/features/Admin/License.php:152
+msgid "Activate"
+msgstr ""
+
+#: includes/features/Admin/License.php:153
+msgid "Reactivate"
+msgstr ""
+
+#: includes/features/Admin/License.php:154
+msgid "Purchase"
+msgstr ""
+
+#: includes/features/Admin/License.php:155
+msgid "Renew"
+msgstr ""
+
+#: includes/features/Admin/License.php:156
+msgid "Remove"
+msgstr ""
+
+#: includes/features/Admin/License.php:157
+msgid "License Key"
+msgstr ""
+
+#: includes/features/Admin/License.php:158
+msgid "Remove the license key"
+msgstr ""
+
+#: includes/features/Admin/License.php:159
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/features/Admin/License.php:215
+#: includes/features/Admin/License.php:216
+#: includes/features/Admin/License.php:230
+msgid "License"
+msgstr ""
+
+#: includes/features/Admin/PostType.php:43
+msgid "Type"
+msgstr ""
+
+#: includes/features/Admin/PostType.php:44
+#: includes/features/Widgets/BeforeAfterImageSlider.php:124
+msgid "Middle Image"
+msgstr ""
+
+#: includes/features/Admin/PostType.php:45
+#: includes/features/Widgets/BeforeAfterImageSlider.php:211
+#: includes/widgets/BeforeAfterImageSlider.php:216
+msgid "Indicator Image"
+msgstr ""
+
+#: includes/features/Admin/PostType.php:69
+#: includes/features/Widgets/BeforeAfterImageSlider.php:103
+msgid "Three Images"
+msgstr ""
+
+#: includes/features/Admin/PostType.php:70
+#: includes/features/Widgets/BeforeAfterImageSlider.php:102
+msgid "Two Images"
+msgstr ""
+
+#: includes/features/Admin/PostType.php:76
+#: includes/features/Admin/PostType.php:101
+msgid "Type Label."
+msgstr ""
+
+#: includes/features/Admin/ShortCode.php:122
+msgid "You need to add both before, middle and after image."
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:90
+msgid "Comparable Images"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:99
+msgid "Slider Type"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:114
+#: includes/features/Widgets/BeforeAfterImageSlider.php:125
+#: includes/features/Widgets/BeforeAfterImageSlider.php:139
+#: includes/widgets/BeforeAfterImageSlider.php:163
+#: includes/widgets/BeforeAfterImageSlider.php:174
+msgid ""
+"For optimal results, please ensure that the images you upload are in square "
+"dimensions."
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:150
+#: includes/widgets/BeforeAfterImageSlider.php:185
+msgid ""
+"To resize images, please ensure that all images are uploaded correctly, "
+"without any placeholder images."
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:159
+#: includes/widgets/BeforeAfterImageSlider.php:192
+msgid "Before Image Label"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:162
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1083
+#: includes/widgets/BeforeAfterImageSlider.php:195
+#: includes/widgets/BeforeAfterImageSlider.php:518
+msgid "Before"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:163
+#: includes/widgets/BeforeAfterImageSlider.php:196
+msgid "Type before image label here"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:169
+msgid "Middle Image Label"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:172
+#: includes/features/Widgets/BeforeAfterImageSlider.php:997
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1201
+msgid "Middle"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:173
+msgid "Type middle image label here"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:182
+#: includes/widgets/BeforeAfterImageSlider.php:202
+msgid "After Image Label"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:185
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1255
+#: includes/widgets/BeforeAfterImageSlider.php:205
+#: includes/widgets/BeforeAfterImageSlider.php:558
+msgid "After"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:186
+#: includes/widgets/BeforeAfterImageSlider.php:206
+msgid "Type after image label here"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:221
+#: includes/widgets/BeforeAfterImageSlider.php:224
+msgid "Image"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:243
+#: includes/widgets/BeforeAfterImageSlider.php:244
+#: includes/widgets/BeforeAfterImageSlider.php:245
+msgid "Default Offset"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:287
+#: includes/widgets/BeforeAfterImageSlider.php:298
+#: includes/widgets/BeforeAfterImageSlider.php:299
+msgid "Slider Template"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:293
+msgid "default"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:298
+msgid "Item 1"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:303
+msgid "Item 2"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:308
+msgid "Item 3"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:313
+msgid "Item 4"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:318
+msgid "Item 5"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:323
+msgid "Item 6"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:328
+msgid "Item 7"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:339
+#: includes/widgets/BeforeAfterImageSlider.php:306
+#: includes/widgets/BeforeAfterImageSlider.php:307
+msgid "Popup"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:341
+#: includes/widgets/BeforeAfterImageSlider.php:278
+#: includes/widgets/BeforeAfterImageSlider.php:289
+msgid "Show"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:342
+#: includes/widgets/BeforeAfterImageSlider.php:279
+#: includes/widgets/BeforeAfterImageSlider.php:290
+msgid "Hide"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:355
+#: includes/widgets/BeforeAfterImageSlider.php:314
+#: includes/widgets/BeforeAfterImageSlider.php:315
+msgid "Popup Position"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:359
+msgid "Top Left"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:360
+msgid "Top Right"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:361
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:362
+msgid "Bottom RIght"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:395
+#: includes/widgets/BeforeAfterImageSlider.php:276
+#: includes/widgets/BeforeAfterImageSlider.php:328
+msgid "Overlay"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:407
+#: includes/features/Widgets/BeforeAfterImageSlider.php:505
+#: includes/widgets/BeforeAfterImageSlider.php:337
+#: includes/widgets/BeforeAfterImageSlider.php:382
+msgid "Normal"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:437
+#: includes/features/Widgets/BeforeAfterImageSlider.php:716
+#: includes/widgets/BeforeAfterImageSlider.php:268
+#: includes/widgets/BeforeAfterImageSlider.php:353
+#: includes/widgets/BeforeAfterImageSlider.php:430
+msgid "Hover"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:496
+#: includes/widgets/BeforeAfterImageSlider.php:373
+msgid "Handle"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:511
+#: includes/features/Widgets/BeforeAfterImageSlider.php:529
+#: includes/features/Widgets/BeforeAfterImageSlider.php:722
+#: includes/features/Widgets/BeforeAfterImageSlider.php:740
+#: includes/widgets/BeforeAfterImageSlider.php:388
+#: includes/widgets/BeforeAfterImageSlider.php:436
+msgid "Icon Color"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:572
+#: includes/features/Widgets/BeforeAfterImageSlider.php:594
+#: includes/features/Widgets/BeforeAfterImageSlider.php:617
+#: includes/features/Widgets/BeforeAfterImageSlider.php:639
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1146
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1159
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1233
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1318
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1331
+#: includes/widgets/BeforeAfterImageSlider.php:404
+#: includes/widgets/BeforeAfterImageSlider.php:540
+#: includes/widgets/BeforeAfterImageSlider.php:580
+msgid "Border Type"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:661
+#: includes/features/Widgets/BeforeAfterImageSlider.php:676
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1171
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1185
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1242
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1343
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1357
+#: includes/widgets/BeforeAfterImageSlider.php:412
+#: includes/widgets/BeforeAfterImageSlider.php:548
+#: includes/widgets/BeforeAfterImageSlider.php:588
+msgid "Border Radius"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:784
+#: includes/features/Widgets/BeforeAfterImageSlider.php:799
+#: includes/widgets/BeforeAfterImageSlider.php:452
+msgid "Border Color"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:836
+#: includes/widgets/BeforeAfterImageSlider.php:465
+msgid "Divider"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:849
+#: includes/features/Widgets/BeforeAfterImageSlider.php:868
+#: includes/widgets/BeforeAfterImageSlider.php:473
+msgid "Color"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:885
+#: includes/features/Widgets/BeforeAfterImageSlider.php:915
+#: includes/widgets/BeforeAfterImageSlider.php:481
+msgid "Width"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:976
+#: includes/widgets/BeforeAfterImageSlider.php:492
+msgid "Label"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:987
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1016
+#: includes/widgets/BeforeAfterImageSlider.php:500
+msgid "Position"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:993
+msgid "Top"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1001
+msgid "Bottom"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1021
+msgid "Left"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1025
+msgid "Center"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1029
+msgid "Right"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1054
+#: includes/widgets/BeforeAfterImageSlider.php:508
+msgid "Align"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1089
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1103
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1210
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1261
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1275
+#: includes/widgets/BeforeAfterImageSlider.php:524
+#: includes/widgets/BeforeAfterImageSlider.php:564
+msgid "Text Color"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1117
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1131
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1221
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1289
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1303
+#: includes/widgets/BeforeAfterImageSlider.php:532
+#: includes/widgets/BeforeAfterImageSlider.php:572
+msgid "Background Color"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1375
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1388
+#: includes/widgets/BeforeAfterImageSlider.php:599
+msgid "Typography"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1401
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1416
+#: includes/widgets/BeforeAfterImageSlider.php:607
+msgid "Padding"
+msgstr ""
+
+#: includes/features/Widgets/BeforeAfterImageSlider.php:1551
+msgid "You need to add before, middle and after image."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:41
+msgid "Before After Image Slider"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:153
+msgid "Before & After Images"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:225
+msgid "indicator image"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:226
+msgid "Choose an indicator image of the Slider. The default is empty."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:236
+msgid "Settings"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:246
+msgid "Choose default offset for divider of the Slider. The default is 50."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:252
+msgid "Orientation"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:255
+msgid "Horizontal"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:256
+msgid "Vertical"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:265
+msgid "Trigger Type"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:267
+msgid "Drag"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:287
+msgid "Labels"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:300
+msgid ""
+"Choose a template for the Slider. The default template is loaded from the "
+"library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:308
+msgid ""
+"Turn on or off on desire if you want to view popup with image slider. The "
+"default template is off."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:316
+msgid "Choose a position for popup. The default position is right bottom."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:343
+#: includes/widgets/BeforeAfterImageSlider.php:359
+#: includes/widgets/BeforeAfterImageSlider.php:396
+#: includes/widgets/BeforeAfterImageSlider.php:444
+msgid "Background Type"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:344
+#: includes/widgets/BeforeAfterImageSlider.php:360
+msgid "overlay background type"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:345
+msgid ""
+"Choose the normal background type for overlay of the Slider. The default "
+"color is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:361
+msgid ""
+"Choose the hover background type for overlay of the Slider. The default "
+"color is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:389
+#: includes/widgets/BeforeAfterImageSlider.php:437
+msgid "icon color"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:390
+msgid ""
+"Choose the normal icon color for handle of the Slider. The default color is "
+"loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:397
+msgid "handle background type"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:398
+msgid ""
+"Choose the normal background color for handle of the Slider. The default "
+"background color is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:405
+#: includes/widgets/BeforeAfterImageSlider.php:541
+#: includes/widgets/BeforeAfterImageSlider.php:581
+msgid "border type"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:406
+msgid ""
+"Choose the border type for handle of the Slider. The default border type is "
+"loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:413
+#: includes/widgets/BeforeAfterImageSlider.php:549
+#: includes/widgets/BeforeAfterImageSlider.php:589
+msgid "border radius"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:414
+msgid ""
+"Choose the border radius for the handle of the Slider. The default border "
+"radius is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:420
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:421
+msgid "box shadow"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:422
+msgid ""
+"Choose the box shadow for the handle of the Slider. The default box shadow "
+"is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:438
+msgid ""
+"Choose the hover icon color for the handle of the Slider. The default color "
+"is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:445
+msgid "background type"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:446
+msgid ""
+"Choose the hover background color for the handle of the Slider. The default "
+"background color is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:453
+msgid "border color"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:454
+msgid ""
+"Choose the hover border color for the handle of the Slider. The default "
+"color is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:474
+msgid "color"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:475
+msgid ""
+"Choose the color for divider of the Slider. The default color is loaded "
+"from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:482
+msgid "width"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:483
+msgid ""
+"Choose the width of the divider of the Slider. The default color is loaded "
+"from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:501
+msgid "position"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:502
+msgid ""
+"Choose the position for labels of the Slider. The default color is loaded "
+"from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:509
+msgid "align"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:510
+msgid ""
+"Choose the alignment for labels of the Slider. The default color is loaded "
+"from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:525
+#: includes/widgets/BeforeAfterImageSlider.php:565
+msgid "text color"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:526
+msgid ""
+"Choose the text color for before of the Slider. The default color is loaded "
+"from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:533
+#: includes/widgets/BeforeAfterImageSlider.php:573
+msgid "background color"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:534
+msgid ""
+"Choose the background color for before of the Slider. The default "
+"background color is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:542
+msgid ""
+"Choose the border type for before of the Slider. The default border type is "
+"loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:550
+msgid ""
+"Choose the border radius for before of the Slider. The default border "
+"radius is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:566
+msgid ""
+"Choose the text color for after of the Slider. The default color is loaded "
+"from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:574
+msgid ""
+"Choose the background color for after of the Slider. The default background "
+"color is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:582
+msgid ""
+"Choose the border type for after of the Slider. The default border type is "
+"loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:590
+msgid ""
+"Choose the border radius for after of the Slider. The default border radius "
+"is loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:600
+msgid "typography"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:601
+msgid ""
+"Choose the typography for label of the Slider. The default typography is "
+"loaded from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:608
+msgid "padding"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:609
+msgid ""
+"Choose the padding for label of the Slider. The default padding is loaded "
+"from the library."
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:718
+#. translators: 1: Feature description, 2: Product Link, 3: Job Instruction, 4:
+#. Feature Name, 5: Feature suffix
+msgid "%1$s %2$s %3$s %4$s %5$s"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:723
+msgid "Check the demos"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:725
+msgid "to preview the"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:727
+msgid "feature"
+msgstr ""
+
+#: includes/widgets/BeforeAfterImageSlider.php:732
+msgid "Buy Pro"
+msgstr ""
+
+#: plugin-freemium.php:185
+msgid "2x Medium Large"
+msgstr ""
+
+#: plugin-freemium.php:186
+msgid "2x Large"
+msgstr ""
+
+#: plugin-freemium.php:236
+msgid "Get started now!"
+msgstr ""
+
+#: plugin-freemium.php:428
+msgid ""
+"The viewing of this premium feature is currently disabled. To gain access, "
+"you must activate the license of WP Before After Image Slider Pro Plugin."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Before After Image Slider"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://codecanel.com/wp-before-after-image-slider/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Craft dynamic before and after image sliders effortlessly. Engage viewers "
+"with seamless visual transitions. Compatible with top page builders like "
+"Elementor, Divi, and Gutenberg."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Code Canel"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://codecanel.com/"
+msgstr ""
+
+#: includes/admin/PostType.php:87
+msgctxt "Post Type General Name"
+msgid "Before After Sliders"
+msgstr ""
+
+#: includes/admin/PostType.php:88
+msgctxt "Post Type Singular Name"
+msgid "Before After Slider"
+msgstr ""
